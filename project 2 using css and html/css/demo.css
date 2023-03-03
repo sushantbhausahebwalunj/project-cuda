@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+} 
+.purple{
+    background-color: purple;
+    position: relative;
+    padding-bottom: 50px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.main{
+    width: 65px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius:10px ;
+    position: absolute;
+    right: 0;
+    top: 5;
+    left: 5;
+}
+.divider{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin: 10px;
+}  
+.nav{
+    display: none;
+}
+.kids{
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+#work{
+    color: white;
+    text-decoration: none;
+    border: 1px solid orange;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 6px;
+    margin-left: 30%;
+}
+.green{
+    background-color: rgb(131,207,131);
+}
+.h2{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+hr{
+    width: 30%;
+    margin-left: 35%;
+    color: rgb(19,17,17);
+    margin-bottom: 30px;
+}
+.p{
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#greenul{
+    list-style: none;
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 30px;
+}
+h2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+#greenul li{
+    padding-top: 35px;
+}
+
+
+.gray{
+    background-color: gray;
+}
+#grayul{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 35px;
+}
+#grayul li{
+    padding-top: 35px;
+}
+#grayul h2{
+    color: black;
+}
+.gray h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+.gray p{
+    color: black;
+}
+.grayimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+h4{
+    color: skyblue;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+#whiteul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 35px;
+    padding-bottom: 30px;
+}
+#whiteul li{
+    padding-top: 35px;
+}
+#whiteul h2{
+    color: black;
+}
+.white h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: black;
+}
+.white p{
+    color: black;
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin: 50px;
+    position: absolute;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.yellow{
+    background-color: burlywood;
+    height: 700px;
+}
+.yellow h2{
+    color: black;
+}
+.yellow p{
+    color: black;
+}
+.yellow a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid orange;
+    text-transform: uppercase;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.btns{
+
+}
+.btn{
+    background-color: rgb(131,207,131);
+    border-radius: 10px;
+    width: 55px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+    border: none;
+    color: white;
+}   
+
+@media(min-width:768px){
+    .kids{
+        font-size: 25px;
+    }
+   #work{
+        margin-left: 40%;
+   } 
+   hr{
+        width: 20%;
+        margin-left: 40%;
+   }
+   .flag{
+        float: left;
+        margin-left: 75px;
+   }
+   .setti{
+        float: left;
+        margin-left: 75px;
+   }
+   .btn{
+    width: 80px;
+    margin: 50px;
+    font-weight: bolder;
+   }
+}
+@media (min-width:1024px){
+    .main{
+        display: none;
+    }  
+    h1{ 
+        font-size: 60px;
+        font-weight: bolder;
+        font-family: 'Dancing Script', cursive;
+        display: inline;
+        margin-top: 10px;
+    }      
+    .nav{
+        display: block;
+        list-style-type: none;
+        text-align: right;
+        margin-top: -40px;
+        padding-bottom: 30px;
+    }
+    .nav li{
+        display: inline;    
+    }    
+    a{
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+        margin: 20px;
+    }
+    .kids{
+        font-size: 35px;
+        padding-top: 90px;
+    }
+    #work{
+        margin-left: 43%;
+    }
+    .purple{
+        padding-bottom: 120px;
+    }
+    .h2{
+        font-size: 30px;
+    }
+    .p{
+        font-size: 20px;
+    }
+    hr{
+        width: 15%;
+        margin-left: 43%;   
+    }
+    .green{
+        height: 500px;
+        position: relative;
+    } 
+    #greenul{
+        background-color: rgb(131,207,131);
+    }
+    .flag{
+        position: absolute;
+    }
+    .pencil{
+        position: absolute;
+        left: 432px;
+    }
+    .setti{
+        position: absolute;
+        left: 710px;
+        
+    }
+    .rok{
+        position: absolute;
+        right: 57px;
+    }
+    .gray{
+        height: 500px;
+        padding-bottom: 30px;
+    }
+   .white .rok{
+    right: 180px;
+   }
+   .yellow{
+    height: 500px;
+   }
+}
